@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baseball Coach Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      background: #1a1a1a;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 32px;
+      max-width: 620px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.01);
+    }
+
+    .card h2 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #1a1a1a;
+    }
+
+    .card p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #555;
+      margin-bottom: 28px;
+    }
+
+    .card a {
+      font-weight: bold;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      padding: 12px;
+      border-radius: 12px;
+      transition: background-color 0.2s ease;
+    }
+
+    .section:hover {
+      background-color: #f3f4f6;
+    }
+
+    .section i {
+      font-size: 22px;
+      margin-right: 16px;
+      margin-top: 4px;
+      transition: transform 0.3s ease;
+    }
+
+    .section:hover i {
+      transform: rotate(5deg) scale(1.2);
+    }
+
+    .section-content {
+      flex: 1;
+    }
+
+    .section-content b {
+      color: #1a1a1a;
+    }
+
+    .icon-blue { color: #2563eb; }
+    .icon-green { color: #22c55e; }
+    .icon-purple { color: #8b5cf6; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Former Division I Outfielder & All-American</h2>
+    <p>
+      A high-energy, relationship-driven youth baseball coach at 
+      <a href="https://example.com" target="_blank">Long Island Storm Academy</a>. 
+      Combines an elite playing background with professional coaching, 
+      nutrition, and performance credentials.
+    </p>
+
+    <div class="section">
+      <i class="fas fa-trophy icon-blue"></i>
+      <div class="section-content">
+        <b>Historic College World Series Run:</b> Helped power Stony Brook's 2012 CWS appearance, famously hitting a 10th-inning HR vs LSU and being dubbed “The Pride of Long Island” on ESPN.
+      </div>
+    </div>
+
+    <div class="section">
+      <i class="fas fa-leaf icon-green"></i>
+      <div class="section-content">
+        <b>Actionable Player Development:</b> Known for teaching advanced baseball IQ and ensuring skills learned in practice transfer to real-game situations.
+      </div>
+    </div>
+
+    <div class="section">
+      <i class="fas fa-award icon-purple"></i>
+      <div class="section-content">
+        <b>Certified & Recognized:</b> Louisville Slugger Freshman All-American with professional coaching and performance credentials.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
